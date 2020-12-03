@@ -16,7 +16,7 @@ const fs = require('fs');
 
 const target = 2020;
 
-const file = fs.readFileSync('./q1_input.txt').toString().split('\n');
+const input = fs.readFileSync('./input.txt').toString().split('\n');
 
 const twoSum = (nums, target) => {
   let numObject = {};
@@ -39,6 +39,6 @@ const findFinalAnswer = nums => {
   return nums[0] * nums[1];
 };
 
-const sumNums = twoSum(file, target);
+const sumNums = twoSum(input, target);
 const finalAnswer = findFinalAnswer(sumNums)
 console.log(finalAnswer);

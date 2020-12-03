@@ -10,9 +10,9 @@ const fs = require('fs');
 
 const target = 2020;
 
-const file = fs.readFileSync('./q1_input.txt').toString().split('\n');
+const input = fs.readFileSync('./input.txt').toString().split('\n');
 
-const newArray = file.map(num => {
+const newArray = input.map(num => {
   return parseInt(num);
 });
 

@@ -15,9 +15,9 @@ How many passwords are valid according to the new interpretation of the policies
 
 const fs = require('fs');
 
-const file = fs.readFileSync('./q1_input.txt').toString().split('\n');
+const input = fs.readFileSync('./input.txt').toString().split('\n');
 
-const validPasswords = file.filter(data => {
+const validPasswords = input.filter(data => {
   const splitData = data.split(' ');
 
   // Get min/max occurrences

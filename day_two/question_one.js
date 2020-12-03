@@ -10,9 +10,9 @@ To try to debug the problem, they have created a list (your puzzle input) of pas
 
 const fs = require('fs');
 
-const file = fs.readFileSync('./q1_input.txt').toString().split('\n');
+const input = fs.readFileSync('./input.txt').toString().split('\n');
 
-const validPasswords = file.filter(data => {
+const validPasswords = input.filter(data => {
   const splitData = data.split(' ');
 
   // Get min/max occurrences
