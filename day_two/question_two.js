@@ -37,3 +37,5 @@ const validPasswords = input.filter(data => {
 });
 
 console.log(validPasswords.length);
+
+// Correct answer 616
