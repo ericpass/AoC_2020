@@ -42,3 +42,5 @@ const findFinalAnswer = nums => {
 const sumNums = twoSum(input, target);
 const finalAnswer = findFinalAnswer(sumNums)
 console.log(finalAnswer);
+
+// Correct answer 41979
